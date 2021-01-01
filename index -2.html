@@ -81,67 +81,6 @@
     fill:#fff;
 }
 
-.about-section{
-    position: relative;
-    padding: 300px 0px 200px 0px;
-    background-image: url(assets/images/curve.png);
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-.about-section .bubble-box{
-    position: relative;
-}
-
-.about-section .container .bubbles-1, .about-section .container .bubbles-2, .about-section .container .bubbles-3, .about-section .container .bubbles-4 {
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-    background-color: #c563f5;
-    display: inline-block;
-    vertical-align: middle;
-    position: absolute;
-    -webkit-animation: zoom-fade-two 5s infinite linear;
-    animation: zoom-fade-two 5s infinite linear;
-}
-.about-section .container .bubbles-1 {
-    background: #fb936e;
-    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
-}
-.about-section .container .bubbles-1 {
-    top: -80px;
-    left: 180px;
-}
-.about-section .container .bubbles-2 {
-    background: #efb7fd;
-    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
-    left: 10px;
-    bottom: -450px;
-}
-.about-section .container .bubbles-3 {
-    background: #fb4677;
-    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
-    right: 200px;
-    bottom: -450px;
-}
-.about-section .container .bubbles-4 {
-    background: #f17ddf;
-    right: 0px;
-    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
-}
-#products{position: relative;}
-#products::before{
-    position: absolute;
-    content: '';
-    background: url(assets/images/cloud-shape.png);
-    background-repeat: no-repeat;
-    width: 947px;
-    height: 841px;
-    left: 0px;
-    top: 30%;
-}
-}
 </style>
 </head>
 <body>
@@ -181,9 +120,8 @@
     
     <!-- hero section starts (hero-default-bg)
 ================================================== -->
-    <section id="home" class="hero-section  hero-gradient bg-blue color-white" style="height:90vh;padding:7rem 0;">
+    <section id="home" class="hero-section  hero-gradient bg-blue color-white" style="height: 100vh;padding:5rem 0;">
         <div class="container">
-            
             <div class="row align-items-center"> 
                 
                 <!-- column 2 starts -->
@@ -452,15 +390,8 @@
     
     <!-- about starts
 ================================================== -->
-    <section id="about" class="about-section ">
-        
+    <section id="about" class="bg-light-blue dtr-py-7">
         <div class="container">
-            <div class="bubble-box">
-                <div class="bubbles-1"></div>
-                <div class="bubbles-2"></div>
-                <div class="bubbles-3"></div>
-                <div class="bubbles-4"></div>
-            </div>
             <div class="row"> 
                 
                 <!-- column 1 starts -->
@@ -550,7 +481,7 @@
                 <!-- column 2 starts -->
                 <div class="col-lg-10  dtr-px-5  ">
                     <div class="titile-block text-center py-4">
-                        <h2>Get A Free <span style="color: #FB4677;">Quote</span> !</h2>
+                        <h2>Get a free Quote</h2>
                         </div>
                     <form  id="contactform" method="post">
                        <div class="row">
