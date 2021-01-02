@@ -25,11 +25,16 @@
 .dtr-sticky-tabs .nav-item:after { content: none; display: none; }
 .text-right { text-align: left !important; }
 .dtr-rounded-left, .dtr-rounded-right { border-radius: 0; }
-.hero-section {height: 90vh!important; padding: 80px 0!important;
-}
+.hero-section {height: 90vh; padding: 80px 0;}
 .banner-text>h2{font-size: 26px;text-align: left;}
 .dynamic-content {padding: 0px 0 0px!important;}
 .static-content>h5{font-size: 18px;}
 .static-content ul>li{font-size: 16px;}
 .howit-bg{display: none;}
+.dtr-sticky-tabs-content {    padding: 50px 0 0 0;}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .hero-section {height: 100vh!important;}
 }
