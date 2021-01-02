@@ -562,7 +562,7 @@ opacity:0
     margin: 0 0 30px;
 }
 .howit-bg {
-    background: url(assets/images/howit-bg.png) no-repeat top center;
+    background: url(../images/howit-bg.png) no-repeat top center;
     background-size: contain;
     position: relative;
     top: 100px;
