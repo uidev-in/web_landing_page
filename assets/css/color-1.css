@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #142752; }
 .color-blue { color: #0089f3 !important; }
 /*== Sections ==*/
 .bg-white { background-color: #fff; }
-.bg-blue { background-color: rgba(226 236 66 / 75%); }
+.bg-blue { background-color: #FE7489; }
 .bg-light-blue { background-color: #c8f2fd}
 .bg-dark-blue { background-color: #001266 }
 .bg-grey { background-color: #f7f6fb }
