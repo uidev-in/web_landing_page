@@ -590,7 +590,7 @@ opacity:0
 .lead-section{
     position: relative;
     padding: 100px 0px 100px 0px;
-    background-color: #FFF4EA;
+    background-color: #FE7489;
     /* background-image: url(assets/images/curve.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -684,6 +684,10 @@ text-align: left;
 .static-content h5{
    color: #000;
    font-weight: 600!important;
+}
+.footer-links a {
+    color: #222222;
+    padding-left: 15px;
 }
 
 ::-webkit-scrollbar {
