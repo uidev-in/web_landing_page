@@ -56,7 +56,7 @@
                 <!-- menu ends--> 
                 
                 <!-- button here -->
-                <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel: 7309261111">+91 - 7309261111 <span><i class="icon phone-volume" aria-hidden="true"></i></span> </a> </div>
+                <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel: 7309261111">+91 - 7309261111 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
                 <!-- button ends --> 
             </div>
         </nav>
@@ -79,7 +79,7 @@
                         <li><i class="icon-arrow-right mr-2" aria-hidden="true"></i>Choose a type of Website which you want</li>
                       </ul> 
                       <div class="form-group pb-2">
-                        <div class="dtr-btn"> <a href="#quote">Start Today<span><i class="icon-arrow-right" aria-hidden="true"></i></span> </a>
+                        <div class="dtr-btn"> <a href="#quote" >Start Today<span><i class="icon-arrow-right" aria-hidden="true"></i></span> </a>
                         </div>
                     </div>
                       </div>
@@ -541,9 +541,9 @@
     </script>
 <script>
     $(document).ready(function(){
-                $('.carousel').carousel({
-        interval: 2000
-        });
+        var scroll = new SmoothScroll('a[href*="#"]');
+        
+        $('.carousel').carousel({interval: 2000});
 
         $('#caption').html($('.active > .carousel-caption').html());
         $('.carousel').on('slid.bs.carousel', function () {
