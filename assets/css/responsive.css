@@ -25,4 +25,10 @@
 .dtr-sticky-tabs .nav-item:after { content: none; display: none; }
 .text-right { text-align: left !important; }
 .dtr-rounded-left, .dtr-rounded-right { border-radius: 0; }
+.hero-section {height: 80vh!important; padding: 80px 0!important;
+}
+.banner-text>h2{font-size: 26px;text-align: left;}
+.dynamic-content {padding: 50px 0 0px!important;}
+.static-content>h5{font-size: 18px;}
+.static-content ul>li{font-size: 16px;}
 }

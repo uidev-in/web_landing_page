@@ -495,7 +495,7 @@
     
     <!-- footer starts
 ================================================== -->
-<section class="curve">
+<section class="curve d-none d-sm-block">
     <svg style="background-color: #000;" xmlns="http://www.w3.org/2000/svg" class="light"  preserveAspectRatio="none" viewBox="0 0 1070 52">
         <path d="M0,0S247,91,505,32c261.17-59.72,565-13,565-13V0Z"></path>
     </svg>
@@ -542,7 +542,7 @@
 <script>
     $(document).ready(function(){
         var scroll = new SmoothScroll('a[href*="#"]');
-        
+
         $('.carousel').carousel({interval: 2000});
 
         $('#caption').html($('.active > .carousel-caption').html());
