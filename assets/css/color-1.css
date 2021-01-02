@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #142752; }
 /*== Buttons ==*/
 .dtr-btn { background-color: #fff; border-color: #e8eaee; }
 .dtr-btn a { color: #142752; }
-.dtr-btn:hover { background-color: #84c723; border-color: #84c723; -webkit-transition: all .5s ease; transition: all .5s ease; }
-.dtr-btn:hover a { color: #fff; }
+.dtr-btn:hover { background-color: #c8f2fd; border-color: #c8f2fd; -webkit-transition: all .5s ease; transition: all .5s ease; }
+.dtr-btn:hover a { color: #000; }
 .dtr-btn span { background-color: rgba(37,204,247,.25); color: #001266; }
 .dtr-btn span i { color: inherit; }
 .dtr-btn:hover span { background-color: #333; color: #fff; }

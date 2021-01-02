@@ -1,18 +1,4 @@
-/*----------------------------------------*/
-/*----- TABLE OF CONTENTS -----*/
-/*----------------------------------------*/
-/*
-1  General Styles
-2  Theme Utilities
-3  Buttons
-4  Lists
-5  Elements
-6  Header
-7  Footer
-8  Swiper
-9  Forms
-10 Easing / Animations
-/*----------------------------------------*/
+
 /*----- 1 General styles -----*/
 /*----------------------------------------*/
 body { -webkit-font-smoothing: antialiased; -webkit-animation: fix 1s 1; overflow-x: hidden; }
@@ -545,3 +531,157 @@ opacity:0
 }
 }
 .dropdown-animate { animation-duration: 0.3s; -webkit-animation-duration: 0.3s; animation-fill-mode: both; -webkit-animation-fill-mode: both; animation-name: dropdownSlideIn; -webkit-animation-name: dropdownSlideIn; }
+
+/* ----Code--- */
+
+.exmyb-color{
+    color: #000!important;
+}    
+    .dtr-btn:hover.input-submit {
+    color: #fff!important;
+}
+.hero-section{
+    height: 700px; padding:100px 0;
+}
+.hero-gradient{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.carousel-caption {
+    position: initial;
+    text-align: center;
+}
+.carousel-indicators li {
+    width: 5px!important;
+    height: 5px!important;
+    border-top: none!important;
+    border-bottom: none!important;
+    border-radius: 20px!important;
+}
+.howit-icon-wrap {
+    text-align: center;
+    margin: 0 0 30px;
+}
+.howit-bg {
+    background: url(assets/images/howit-bg.png) no-repeat top center;
+    background-size: contain;
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.howit-img-block {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #fe7489;
+    border-right-width: 4px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 22px;
+    margin: 0 auto;
+    display: block;
+}
+.curve svg{
+    fill:#fff;
+}
+
+.lead-section{
+    position: relative;
+    padding: 100px 0px 100px 0px;
+    background-color: #FFF4EA;
+    /* background-image: url(assets/images/curve.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; */
+}
+.about-section{
+    padding: 100px 0px 100px 0px;
+}
+.about-section .bubble-box{
+    position: relative;
+}
+
+.about-section .container .bubbles-1, .about-section .container .bubbles-2, .about-section .container .bubbles-3, .about-section .container .bubbles-4 {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #c563f5;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    -webkit-animation: zoom-fade-two 5s infinite linear;
+    animation: zoom-fade-two 5s infinite linear;
+}
+.about-section .container .bubbles-1 {
+    background: #fb936e;
+    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
+}
+.about-section .container .bubbles-1 {
+    top: -80px;
+    left: 180px;
+}
+.about-section .container .bubbles-2 {
+    background: #efb7fd;
+    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
+    left: 10px;
+    bottom: -450px;
+}
+.about-section .container .bubbles-3 {
+    background: #fb4677;
+    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
+    right: 200px;
+    bottom: -450px;
+}
+.about-section .container .bubbles-4 {
+    background: #f17ddf;
+    right: 0px;
+    box-shadow: 2px 20px 34px rgba(0, 0, 0, 0.20);
+}
+#products{position: relative;}
+#products::before{
+    position: absolute;
+    content: '';
+    background: url(assets/images/cloud-shape.png);
+    background-repeat: no-repeat;
+    width: 947px;
+    height: 841px;
+    left: 0px;
+    top: 30%;
+}
+.carousel-control-next, .carousel-control-prev {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    top: 50%;
+    bottom: auto;
+    border-radius: 20px;
+    opacity: 0.7;
+    transform: translateY(-50%);
+    background-color: rgba(20,39,82,0.1);
+    /* background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
+
+}
+.carousel-caption,.carousel-indicators{
+    display: none!important;
+}
+/* .carousel-item > img {
+  width:100%!important;
+  
+} */
+.dynamic-content{
+padding: 50px 0 20px;    
+text-align: left;
+}
+.static-content{
+    text-align: left;
+}
+.static-content ul>li{
+   list-style: none; 
+}
+.static-content h5{
+   color: #000;
+   font-weight: 600!important;
+}
