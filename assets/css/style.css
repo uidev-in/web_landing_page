@@ -541,7 +541,7 @@ opacity:0
     color: #fff!important;
 }
 .hero-section{
-    height: 700px; padding:100px 0;
+    height: 700px; padding:120px 0;
 }
 .hero-gradient{
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
@@ -684,4 +684,15 @@ text-align: left;
 .static-content h5{
    color: #000;
    font-weight: 600!important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }
